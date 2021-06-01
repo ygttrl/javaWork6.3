@@ -1,0 +1,10 @@
+package JavaWork.HRMS.entities.concretes;
+
+
+
+public class jobposition {
+	
+	private int id;
+	private String jobtitlename ;
+	
+}

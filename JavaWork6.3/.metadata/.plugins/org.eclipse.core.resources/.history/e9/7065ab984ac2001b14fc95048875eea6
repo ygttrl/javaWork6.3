@@ -1,0 +1,9 @@
+package JavaWork.HRMS.api;
+
+import JavaWork.HRMS.business.abstracts.JobpositionService;
+
+public class JobpositionController {
+	
+	private JobpositionService jobpositionService;
+	
+}

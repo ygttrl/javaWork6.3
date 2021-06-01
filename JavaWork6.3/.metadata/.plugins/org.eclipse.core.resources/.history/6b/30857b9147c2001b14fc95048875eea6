@@ -1,0 +1,5 @@
+package JavaWork.HRMS.business.abstracts;
+
+public interface jobpositionService {
+
+}

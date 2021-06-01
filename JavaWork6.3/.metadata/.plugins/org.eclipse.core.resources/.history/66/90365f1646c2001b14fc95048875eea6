@@ -1,0 +1,23 @@
+package JavaWork.HRMS.entities.concretes;
+
+import javax.persistence.Entity;
+
+import org.hibernate.annotations.Table;
+
+import lombok.Data;
+
+@Data
+@Entity
+@Table(name="jobpositions")
+
+public class jobposition {
+	
+	private int id;
+	private String jobtitlename ;
+	
+	
+	public jobposition() {}
+	
+	
+	
+}

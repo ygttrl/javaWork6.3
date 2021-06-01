@@ -1,0 +1,5 @@
+package JavaWork.HRMS.entities.concretes;
+
+public class jobposition {
+
+}

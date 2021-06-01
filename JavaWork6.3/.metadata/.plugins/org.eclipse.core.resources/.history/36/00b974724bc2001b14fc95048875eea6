@@ -1,0 +1,18 @@
+package JavaWork.HRMS.business.concretes;
+
+import java.util.List;
+
+import JavaWork.HRMS.business.abstracts.JobpositionService;
+import JavaWork.HRMS.entities.concretes.jobposition;
+
+public class jobpositionManager implements JobpositionService {
+
+	
+	
+	@Override
+	public List<jobposition> GetAll() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

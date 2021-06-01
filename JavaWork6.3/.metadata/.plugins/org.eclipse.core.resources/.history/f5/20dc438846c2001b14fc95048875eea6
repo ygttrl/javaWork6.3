@@ -1,0 +1,31 @@
+package JavaWork.HRMS.entities.concretes;
+
+import javax.persistence.Entity;
+
+
+
+import lombok.Data;
+
+@Data
+@Entity
+
+
+public class jobposition {
+	
+	private int id;
+	private String jobtitlename ;
+	
+	public jobposition() {}
+	
+	public jobposition(int id, String jobtitlename) {
+		super();
+		this.id = id;
+		this.jobtitlename = jobtitlename;
+	}
+	
+	
+	
+	
+	
+	
+}

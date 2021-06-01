@@ -1,0 +1,31 @@
+package JavaWork.HRMS.business.concretes;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import JavaWork.HRMS.business.abstracts.JobpositionService;
+import JavaWork.HRMS.dataAccess.abstracts.JobpositionDao;
+import JavaWork.HRMS.entities.concretes.jobposition;
+
+public class jobpositionManager implements JobpositionService {
+
+	private JobpositionDao jobpositionManager;
+	
+	@Autowired
+	public jobpositionManager(JobpositionDao jobpositionManager) {
+		super();
+		this.jobpositionManager = jobpositionManager;
+	}
+
+
+
+	@Override
+	public List<jobposition> GetAll() {
+		
+		return jobpositionManager.findAll();
+	}
+	
+	
+
+}
